@@ -1,0 +1,22 @@
+No sql = unstructure data 
+Nosql 
+MogoDB = document data
+Redis 
+
+
+Popular postgresql 
+postgresql = natural db data (json data store ) + unstructure data , ORM storage တဆင့်ခံထား 
+
+ORM = Pisma ORM 
+https://www.prisma.io/docs/getting-started/quickstart-sqllite 
+
+supabase = database rare use 
+ORM = https://orm.drizzle.team/ ( Super perfomance )
+
+
+db setup 
+npm i prisma -D
+npx prisma init --datasource-provider sqlite
+
+npx prisma migrate dev --name init
+npm install @prisma/client
